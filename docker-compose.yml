@@ -6,7 +6,7 @@ services:
     environment:
       - JAVA_OPTS=-Dorg.apache.commons.jelly.tags.fmt.timeZone=Asia/Shanghai 
     ports:
-      - 8180:8080
+      - 8080:8081
       - 50000:50000
     # uncomment for docker in docker
     privileged: true
